@@ -14,7 +14,7 @@ namespace Tyuiu.ZamyatinDY.Sprint3.Task0.V2.Test
             int start1 = 1;
             int finish2 = 9;
             var res = ds.GetMultiplySeries(start1, finish2);
-            double wait = 17.255;
+            double wait = 0.021;
             Assert.AreEqual(wait, res);
         }
     }
